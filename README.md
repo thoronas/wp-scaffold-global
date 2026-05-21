@@ -28,7 +28,7 @@ Invoked in conversation with `/skill-name`. All PHP-generating skills run `phpcb
 
 | Skill | When to use |
 | --- | --- |
-| `/wp-feature` | Add a feature, settings page, post type, or REST endpoint |
+| `/wp-feature` | Add a feature, settings page, post type, or REST endpoint — includes a triage phase that identifies and routes to relevant extended skills |
 | `/wp-block` | Create a Gutenberg block or block component |
 | `/wp-debug` | Investigate a bug, error, or unexpected behavior |
 | `/wp-migrate` | PHP/WP version upgrades, deprecation replacements, dependency swaps |

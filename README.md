@@ -24,6 +24,8 @@ The script symlinks each skill directory, agent file, and rule file into `~/.cla
 
 Invoked in conversation with `/skill-name`. All PHP-generating skills run `phpcbf → phpcs` before presenting output.
 
+#### Core development skills
+
 | Skill | When to use |
 | --- | --- |
 | `/wp-feature` | Add a feature, settings page, post type, or REST endpoint |
@@ -32,6 +34,22 @@ Invoked in conversation with `/skill-name`. All PHP-generating skills run `phpcb
 | `/wp-migrate` | PHP/WP version upgrades, deprecation replacements, dependency swaps |
 | `/wp-review` | Security-focused code review before merge |
 | `/wp-theme` | Generate a full theme skeleton — FSE or hybrid |
+
+#### Extended skills (from WordPress/agent-skills)
+
+| Skill | When to use |
+| --- | --- |
+| `/blueprint` | Create or edit WordPress Playground blueprint JSON files; set up demo environments |
+| `/wordpress-router` | Classify a WordPress repo and route to the correct workflow or skill |
+| `/wp-abilities-api` | Work with the WordPress Abilities API (`wp_register_ability`, REST exposure, permission checks) |
+| `/wp-interactivity-api` | Build or debug Interactivity API features (`data-wp-*` directives, store/state/actions) |
+| `/wp-performance` | Profile and optimize WordPress performance — queries, caching, cron, HTTP calls |
+| `/wp-phpstan` | Configure and run PHPStan static analysis in WordPress projects |
+| `/wp-playground` | Spin up disposable WP instances locally or in-browser via `@wp-playground/cli` |
+| `/wp-plugin-directory-guidelines` | Review plugins for WordPress.org compliance — GPL, naming, upsell patterns |
+| `/wp-project-triage` | Inspect a WordPress repository and produce a structured diagnostic report |
+| `/wp-wpcli-and-ops` | Run WP-CLI operations: search-replace, db import/export, cron, cache, multisite |
+| `/wpds` | Build UIs using the WordPress Design System components and tokens |
 
 ### Agents
 
